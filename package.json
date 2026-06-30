@@ -1,0 +1,12 @@
+{
+  "name": "merl-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preprocess": "node scripts/preprocess-env.mjs && node scripts/preprocess-merl.mjs",
+    "preprocess:env": "node scripts/preprocess-env.mjs",
+    "preprocess:brdf": "node scripts/preprocess-merl.mjs",
+    "serve": "python3 -m http.server 5173"
+  }
+}
